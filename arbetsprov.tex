@@ -1,0 +1,165 @@
+\documentclass[a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[swedish]{babel}
+
+\title{Arbetsprovsfrågor\date{\today}}
+\author{klma7216@su.se \& masv3971@su.se}
+
+\begin{document}
+    \maketitle
+    \newpage
+
+\chapter{Förutsättningar och tillvägagångssätt}
+\section{Introduktion}
+Detta test syftar till att vi på Stockholms Universitet ska få en tydligare bild av vad du klarar av. Noteras bör att detta inte är någon korkad skoluppgift utan syftar till att problem ska lösas. Om du löser problemet helt själv, googlar eller tar hjälp av en kompis är oss likgiltigt så länge du har förstått och lärt dig. Frågorna kan uppfattas som både knäppa och även ibland långsökta men är tänkta att känna lättsamt på din tekniska puls med vikt åt Linux. 
+
+
+\section{Bedöming \& tidsram}
+Bedömningen kommer i första hand att ta hänsyn till hur frågorna är lösta och mindre att exakt rätt svar har presenterats. Vilket gör att en diskussion runt en fråga är bättre än en helt lämnad fråga. 
+\newline
+Dina svar tillsammans med källa  mailas till respektive författare (står på framsidan) senast den 28 November (20161128T120000+0100).
+\newline
+\newline
+
+Så, sätt dig tillrätta och ta fram din favoriteditor...
+    \newpage
+
+\chapter{Linux}
+\section{TNT}
+Beskriv vad raden nedan kan tänkas göra steg för steg. Var i strängen är rekursionen?
+
+\begin{verbatim}
+:(){ :|: & };:
+\end{verbatim} 
+
+\section{keep going, eller?}
+Vilken skillnad är det mellan 
+\begin{verbatim}
+; och &&
+\end{verbatim}
+
+\section{Vimsisgt värre..}
+På hur många sätt är VIM överlägsen Emacs?
+
+\section{Sjukt awkward!}
+Använd ett script- eller programmeringspråk för att ta fram en lista på efternamn och titel.
+\begin{verbatim}
+kalle,göransson,ekonomi
+nisse-göran,svensson,linuxninja
+anna,von anka,arvtagerska
+östen,warnebring,sångare
+\end{verbatim}
+
+\section{sortera mera!}
+Beskriv hur du sorterar listan ovan i bokstavsordning på efternamn.
+
+\section{Me, my self and I}
+I vilket sammanhang kan man behöva pipe:a nedan kommando efter? 
+\begin{verbatim}
+grep foo | grep -v grep ?
+\end{verbatim}
+
+\section{Ioan Ursut}
+Hur tar du bort filen '-hej' ?
+
+\section{Hoppa hage}
+Om du ska skriva ut nedan rad i terminalen, hur ser kommandot ut? 
+\begin{verbatim}
+/\/\
+\end{verbatim}
+
+\section{Insomnia}
+Hur gör du om du vill att din webbläsare ska stängas av på din linuxdator för att du ska komma i säng klockan 03:00 varje dag?
+
+\section{Tacos!}
+Skriv ett script som svarar på frågan "Är det fredag?"
+
+\section{man woman}
+Vad gör följande kommando:
+\begin{verbatim}
+cat food
+\end{verbatim}
+
+\section{!telnet}
+Nämn minst ett sätt att logga in säkert på en server utan att ett lösenord skickas över nätverk.
+
+\section{kurlade åldringar}
+Du väntar på ett paket som dina gamla morföräldrar har skickat efter, en ruskigt fräsh Alien laptop för de tyngsta spelen. Ditt uppdrag är att hämta paketet så fort de kommer fram till Frasses Kött och Video. Skriv ett skript som underlättar ditt åtagande.
+
+\section{Top Rank}
+Ranka följande arbetsmiljöer enligt behoven du tror du kommer att ha hos SU:
+Windows 7, Windows 10, Mac OS 9, Mac OSX 10.10, Ubuntu 16.04, Ubuntu 16.10, Fedora 25, Fedora 26, Archlinux, OpenBSD, freeBSD
+
+\section{Reflekterande  aritmetik}
+Med så få tecken som möjligt, skriv ut alla tal mellan 1 och 100.
+
+\section{Auth.allow?}
+Vad gör Auth till en diffus term?
+
+\section{NSA}
+Varför börjar så många guider med 'Disable SELinux'?
+
+\section{Noob Error}
+Varför misslyckas följande:
+\begin{verbatim}
+while touch fil; do if [[ -f fil ]]; then rm fil done
+\end{verbatim}
+
+\section{macchine inutili}
+Vad gör ovanstående script?
+
+\section{The Uppsetters}
+Nedan finner du ett regex korsord. Vilka bokstäver kommer att hittas av respektive regex i de två vertikala rutorna?
+\newline
+\begin{tabular}{| c | c |}
+\hline
+& A?B? \\ \hline
+A|C & \\ \hline
+AB* & \\ \hline
+\end{tabular}
+
+\section{Gandalf}
+Du ska sätta upp tre miljöer, produktion, laboration och testing. I varje miljö ingår det en databasserver, två webfrontar och tre vanliga servers. 
+Hur skulle du namnge dessa på bästa sätt?
+Tjänsten som dessa servrar ska hostar heter nixnux.
+
+\section{Retropespektiv}
+Vad händer om du kör raden nedan, varför? 
+\begin{verbatim}
+foo(){ foo | foo &};foo
+\end{verbatim}
+\chapter{Nät}
+\section{Here is Jonny!}
+Hur letar du enklast reda på ett anslutet NIC då du känner till MAC adressen i en L2 enhet (cisco).
+
+\section{Cake?}
+Hur gör du för att hitta en annan närverksutrustning som är inkopplad i en switch eller router?
+
+\section{ISO/IEC/IEEE 8802-3:2014 -> ISO/IEC 7816}
+Ange vilka (fler än ett) sätt du kan ta reda på vilka interface som är err-disablade på en cisco switch.
+
+\section{Vlan}
+Du ska koppla upp en server i en access-switch på vlan 208, vlanet finns inte på switchen så du lägger till de. Hur gör du detta i cisco? 
+Tyvärr får du ändå ingen länk trots att allt är helt. Vad är troligen orsaken till de? 
+
+\section{Ben-Hur 3.44}
+Du har precis satt upp ett storagenät för högupplösta videofiler. Allt verkar fungera men du lyckas inte få upp hastigheten. Vad kan du göra för att få upp hastigheten i ditt L2 nät?
+
+\section{Great wall of China}
+En lokal admin (DSA) använder all infrastruktur centralt men får för sig att sätta upp en egen brandvägg (cisco ASA) mellan era nät. De stora flertalet klienter kommer inte ut på internet, medans vissa gör det. Vad har troligvis glömts i konfigurationen i ASA:n? 
+
+\section{Rete Lumbricus}
+En familj har satt upp en egen router med iputdelning. I konfigurationsmenyn kunde man skriva in ip/ett nummer. Familjen uppfattade numret som antalet klienter och valde således 192.168.0.0/30. Hur kommer detta att fungera för familjen?
+
+\section{2x(Som en blomma vissnad)}
+Vilken RFC beskriver interna nät som inte ska routas ut på internet? 
+
+\section{Shibari}
+Vad finns det för möjlighet att binda L2/L3 i en renodlad L2 switch? Har metoden begränsningar?
+
+\section{Väldigt trasiga prylar}
+Helt plötsligt försvinner alla vlan från alla switchar samtidigt. Vad har troligtvis hänt?
+
+\end{document}
