@@ -4,7 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[swedish]{babel}
 
-\title{Arbetsprovsfrågor - praktikant\date{\today}}
+\title{Arbetsprovsfrågor\date{\today}}
 \author{klma7216@su.se \& masv3971@su.se}
 
 \begin{document}
@@ -13,15 +13,22 @@
 
 \section{Förutsättningar och tillvägagångssätt}
 \subsection{Introduktion}
-Detta test syftar till att vi på Stockholms Universitet ska få en tydligare bild av vad du klarar av. Noteras bör att detta inte är någon korkad skoluppgift utan syftar till att problem ska lösas. Om du löser problemet helt själv, googlar eller tar hjälp av en kompis är oss likgiltigt så länge du har förstått och lärt dig. Frågorna kan uppfattas som både knäppa och även ibland långsökta men är tänkta att känna lättsamt på din tekniska puls med vikt åt Linux. 
+Detta test syftar till att vi på Stockholms Universitet ska få en tydligare bild av vad du klarar av. Noteras bör att detta inte är någon korkad skoluppgift utan syftar till att problem ska lösas. Om du löser problemet helt själv, googlar eller tar hjälp av en kompis är oss likgiltigt så länge du har förstått och lärt dig. Frågorna kan uppfattas som både knäppa och även ibland långsökta men är tänkta att på ett mer lättsamt sätt skapa oss en bild av dina tekniska erfarenheter och problemlösning.
+\newline
+Dessa frågor är primärt avsädda för en praktikant som inte ännu gått klart någon linux utbildning. Faller du inte innom den katergorin kommer större vikt läggas på de du programmerat/scriptat tidigare.
+\newline
+
 
 \subsection{Bedöming \& tidsram}
-Bedömningen kommer i första hand att ta hänsyn till hur frågorna är lösta och mindre att exakt rätt svar har presenterats. Vilket gör att en diskussion runt en fråga är bättre än en helt lämnad fråga. 
+Bedömningen kommer i första hand att ta hänsyn till hur frågorna är lösta och i andra hand att rätt svar har presenterats. Vilket gör att en diskussion runt en fråga är bättre än en helt utelämna den.
 \newline
-Dina svar tillsammans med källa  mailas till respektive författare (står på framsidan) senast den 28 November (20161128T120000+0100).
-\newline
+Maila dina svar tillsammans med källa till jesper.udd@su.se innom den tid ni har kommit fram till. Om du har något git*-konto kollar vi gärna igenom dina repon.
 \newline
 
+\subsection{Fel}
+Om något skulle vara otydligt eller felaktigt är du välkommen att maila, adress står på försat sidan.
+\newline
+\newline
 Så, sätt dig tillrätta och ta fram din favoriteditor...
     \newpage
 
@@ -80,17 +87,18 @@ cat food
 \subsubsection{Sjukt awkward!}
 Använd ett script- eller programmeringspråk för att ta fram en lista på efternamn och titel.
 \begin{verbatim}
-anna,von anka,arvtagerska
-kalle,göransson,ekonomi
-nisse-göran,svensson,linuxninja
-östen,warnebring,sångare
+Lisa,von Anka,arvtagerska
+Kalle,Göransson,ekonomi
+Nisse-Göran,Svensson,linuxninja
+Anna Karin,Pettersson,Psykolog
+Östen,Warnebring,sångare
 \end{verbatim}
 
 \subsubsection{sortera mera!}
-Beskriv hur du sorterar listan ovan i bokstavsordning på efternamn.
+Hur sorterar du listan ovan i bokstavsordning på efternamn.
 
 \subsubsection{Me, my self and I}
-I vilket sammanhang kan man behöva pipe:a nedan kommando efter? 
+I vilket sammanhang kan man behöva pipe:a nedan kommando efter?
 \begin{verbatim}
 grep foo | grep -v grep ?
 \end{verbatim}
@@ -99,7 +107,7 @@ grep foo | grep -v grep ?
 Hur tar du bort filen '-hej' ?
 
 \subsubsection{Hoppa hage}
-Om du ska skriva ut nedan rad i terminalen, hur ser kommandot ut? 
+Ge alla exempel du kan för att skriva ut nedan rad i terminalen.
 \begin{verbatim}
 /\/\
 \end{verbatim}
@@ -109,15 +117,15 @@ Beskriv vad raden nedan kan tänkas göra steg för steg. Var i strängen är re
 
 \begin{verbatim}
 :(){ :|: & };:
-\end{verbatim} 
+\end{verbatim}
 
 \subsubsection{keep going, eller?}
-Vilken skillnad är det mellan 
+Vilken skillnad är det mellan
 \begin{verbatim}
 ; och &&
 \end{verbatim}
 
-\subsubsection{Reflekterande  aritmetik}
+\subsubsection{Reflekterande aritmetik}
 Med så få tecken som möjligt, skriv ut alla tal mellan 1 och 100.
 
 \subsubsection{Noob Error}
@@ -134,7 +142,7 @@ Vad gör ovanstående script?
 Ge exempel på en tillämpning av bashs positionas variabler.
 
 \subsubsection{Retropespektiv}
-Vad händer om du kör raden nedan, varför? 
+Vad händer om du kör raden nedan, varför?
 \begin{verbatim}
 foo(){ foo | foo &};foo
 \end{verbatim}
@@ -150,20 +158,20 @@ Hur gör du för att hitta en annan närverksutrustning som är inkopplad i en s
 Ange vilka (fler än ett) sätt du kan ta reda på vilka interface som är err-disablade på en cisco switch.
 
 \subsubsection{Vlan}
-Du ska koppla upp en server i en access-switch på vlan 208, vlanet finns inte på switchen så du lägger till de. Hur gör du detta i cisco? 
-Tyvärr får du ändå ingen länk trots att allt är helt. Vad är troligen orsaken till de? 
+Du ska koppla upp en server i en access-switch på vlan 208, vlanet finns inte på switchen så du lägger till de. Hur gör du detta i cisco?
+Tyvärr får du ändå ingen länk trots att allt är helt. Vad är troligen orsaken till de?
 
 \subsubsection{Ben-Hur 3.44}
 Du har precis satt upp ett storagenät för högupplösta videofiler. Allt verkar fungera men du lyckas inte få upp hastigheten. Vad kan du göra för att få upp hastigheten i ditt L2 nät?
 
 \subsubsection{Great wall of China}
-En lokal admin (DSA) använder all infrastruktur centralt men får för sig att sätta upp en egen brandvägg (cisco ASA) mellan era nät. De stora flertalet klienter kommer inte ut på internet, medans vissa gör det. Vad har troligvis glömts i konfigurationen i ASA:n? 
+En lokal admin (DSA) köper in all infrastruktur centralt men får för sig att sätta upp en egen brandvägg (cisco ASA) mellan era nät. De stora flertalet klienter kommer inte ut på internet, medans vissa gör det. Vad har troligvis glömts i konfigurationen i ASA:n? 
 
 \subsubsection{Rete Lumbricus}
 En familj har satt upp en egen router med iputdelning. I konfigurationsmenyn kunde man skriva in ip/ett nummer. Familjen uppfattade numret som antalet klienter och valde således 192.168.0.0/30. Hur kommer detta att fungera för familjen?
 
 \subsubsection{2x(Som en blomma vissnad)}
-Vilken RFC beskriver interna nät som inte ska routas ut på internet? 
+Vilken RFC beskriver interna nät som inte får routas ut på internet?
 
 \subsubsection{Shibari}
 Vad finns det för möjlighet att knyta ip med MAC-adress i en renodlad L2 switch? Har metoden begränsningar?
