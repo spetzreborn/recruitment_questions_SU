@@ -5,30 +5,29 @@ Introduktion
 ------------
 
 Detta test syftar till att vi på Stockholms Universitet ska få en
-tydligare bild av din tekniskakompetens. Noteras bör att detta inte är
+tydligare bild av din tekniska kompetens. Noteras bör att detta inte är
 någon korkad skoluppgift utan syftar till att ett antal problem ska
 lösas. Om du löser problemet helt själv, googlar eller tar hjälp av en
 kompis är oss likgiltigt så länge du har förstått och lärt dig. Dessa
-frågor är primärt avsädda för en praktikant som inte ännu gått klart
-någon linux utbildning. Faller du inte innom den katergorin kommer
-större vikt läggas på de du programmerat/scriptat tidigare.
+frågor är primärt avsedda för en praktikant som inte ännu gått klart
+någon linux utbildning. Faller du inte inom den kategorin kommer
+större vikt att läggas på det du programmerat/scriptat tidigare.
 
 Bedöming & tidsram
 ------------------
 
 Bedömningen kommer i första hand att ta hänsyn till hur frågorna är
 lösta och i andra hand att rätt svar har presenterats. Vilket gör att en
-diskussion runt en fråga är bättre än en helt utelämna den. Maila dina
-svar tillsammans med källa till jesper.udd@su.se innom den tid ni har
+diskussion runt en fråga är bättre än att helt utelämna den. Maila dina
+svar tillsammans med källa till jesper.udd@su.se inom den tid ni har
 kommit fram till. Om du har något git\*-konto kollar vi gärna igenom
 dina repon.
 
 Fel
 ---
 
-Om något skulle vara otydligt eller felaktigt är du välkommen att maila,
-adress står på försat sidan. Så, sätt dig tillrätta och ta fram din
-favoriteditor...
+Om något skulle vara otydligt eller felaktigt är du välkommen att maila.
+Så, sätt dig tillrätta och ta fram din favoriteditor...
 
 Linux
 =====
@@ -36,7 +35,7 @@ Linux
 GNU
 ---
 
-### Vimsisgt värre..
+### Vimsigt värre..
 
 På hur många sätt är VIM överlägsen Emacs?
 
@@ -54,8 +53,8 @@ kurlade åldringar
 =================
 
 Du väntar på ett paket som dina gamla morföräldrar har skickat efter, en
-ruskigt fräsh Alien laptop för de tyngsta spelen. Ditt uppdrag är att
-hämta paketet så fort de kommer fram till Frasses Kött och Video. Skriv
+ruskigt fräsch Alien laptop för de tyngsta spelen. Ditt uppdrag är att
+hämta paketet så fort det kommer fram till Frasses Kött och Video. Skriv
 ett skript som underlättar ditt åtagande.
 
 Misc.
@@ -74,7 +73,7 @@ Varför börjar så många guider med ’Disable SELinux’?
 Du ska sätta upp tre miljöer, produktion, laboration och testing. I
 varje miljö ingår det en databasserver, två webfrontar och tre vanliga
 servers. Hur skulle du namnge dessa på bästa sätt? Tjänsten som dessa
-servrar ska hostar heter nixnux.
+servrar ska hosta heter nixnux.
 
 BASH
 ====
@@ -170,7 +169,7 @@ adressen i en L2 enhet.
 
 ### Cake?
 
-Hur gör du för att hitta en annan närverksutrustning som är inkopplad i
+Hur gör du för att hitta en annan nätverksutrustning som är inkopplad i
 en switch eller router?
 
 ### ISO/IEC/IEEE 8802-3:2014 -\> ISO/IEC 7816
@@ -181,7 +180,7 @@ err-disablade på en cisco switch.
 ### Vlan
 
 Du ska koppla upp en server i en access-switch på vlan 208, vlanet finns
-inte på switchen så du lägger till de. Hur gör du detta i cisco? Tyvärr
+inte på switchen så du lägger till det. Hur gör du detta i cisco? Tyvärr
 får du ändå ingen länk trots att allt är helt. Vad är troligen orsaken
 till de?
 
@@ -194,13 +193,13 @@ för att få upp hastigheten i ditt L2 nät?
 ### Great wall of China
 
 En lokal admin (DSA) köper in all infrastruktur centralt men får för sig
-att sätta upp en egen brandvägg (cisco ASA) mellan era nät. De stora
+att sätta upp en egen brandvägg (cisco ASA) mellan era nät. Det stora
 flertalet klienter kommer inte ut på internet, medans vissa gör det. Vad
 har troligvis glömts i konfigurationen i ASA:n?
 
 ### Rete Lumbricus
 
-En familj har satt upp en egen router med iputdelning. I
+En familj har satt upp en egen router med ip-utdelning. I
 konfigurationsmenyn kunde man skriva in ip/ett nummer. Familjen
 uppfattade numret som antalet klienter och valde således 192.168.0.0/30.
 Hur kommer detta att fungera för familjen?
@@ -237,5 +236,5 @@ Beskriv vad nedan kod gör. Stämmer resonemanget?
 Q
 =
 
-Skriv en valfri fråga med svar, motivering och rubruk. Om den är bra
+Skriv en valfri fråga med svar, motivering och rubrik. Om den är bra
 kommer den vara med i nästa utgåva av detta prov.
