@@ -38,6 +38,7 @@ GNU
 ### Vimsigt värre..
 
 På hur många sätt är VIM överlägsen Emacs?
+(Alternativt, vilken är din favorit $EDITOR och varför)
 
 ### Insomnia
 
@@ -47,26 +48,7 @@ linuxdator för att du ska komma i säng klockan 03:00 varje dag?
 ### !telnet
 
 Nämn minst ett sätt att logga in säkert på en server utan att ett
-lösenord skickas över nätverk.
-
-kurlade åldringar
-=================
-
-Du väntar på ett paket som dina gamla morföräldrar har skickat efter, en
-ruskigt fräsch Alien laptop för de tyngsta spelen. Ditt uppdrag är att
-hämta paketet så fort det kommer fram till Frasses Kött och Video. Skriv
-ett skript som underlättar ditt åtagande.
-
-Misc.
-=====
-
-### Auth.allow?
-
-Vad gör Auth till en diffus term?
-
-### NSA
-
-Varför börjar så många guider med ’Disable SELinux’?
+lösenord skickas i klartext över nätverk.
 
 ### Gandalf
 
@@ -103,29 +85,6 @@ efternamn och titel.
 
 Hur sorterar du listan ovan i bokstavsordning på efternamn.
 
-### Me, my self and I
-
-I vilket sammanhang kan man behöva pipe:a nedan kommando efter?
-
-    grep foo | grep -v grep ?
-
-### Ioan Ursut
-
-Hur tar du bort filen ’-hej’ ?
-
-### Hoppa hage
-
-Ge alla exempel du kan för att skriva ut nedan rad i terminalen.
-
-    /\/\
-
-### TNT
-
-Beskriv vad raden nedan kan tänkas göra steg för steg. Var i strängen är
-rekursionen?
-
-    :(){ :|: & };:
-
 ### keep going, eller?
 
 Vilken skillnad är det mellan
@@ -136,105 +95,7 @@ Vilken skillnad är det mellan
 
 Med så få tecken som möjligt, skriv ut alla tal mellan 1 och 100.
 
-### Noob Error
-
-Varför misslyckas följande:
-
-    while touch fil; do if [[ -f fil ]]; then rm fil done
-
-### macchine inutili
-
-Vad gör ovanstående script?
-
 ### short hand
 
 Ge exempel på en tillämpning av bashs positionas variabler.
 
-### Retropespektiv
-
-Vad händer om du kör raden nedan, varför?
-
-    foo(){ foo | foo &};foo
-
-Nät
-===
-
-Cisco
------
-
-### Here is Jonny!
-
-Hur letar du enklast reda på ett anslutet NIC då du känner till MAC
-adressen i en L2 enhet.
-
-### Cake?
-
-Hur gör du för att hitta en annan nätverksutrustning som är inkopplad i
-en switch eller router?
-
-### ISO/IEC/IEEE 8802-3:2014 -\> ISO/IEC 7816
-
-Ange vilka (fler än ett) sätt du kan ta reda på vilka interface som är
-err-disablade på en cisco switch.
-
-### Vlan
-
-Du ska koppla upp en server i en access-switch på vlan 208, vlanet finns
-inte på switchen så du lägger till det. Hur gör du detta i cisco? Tyvärr
-får du ändå ingen länk trots att allt är helt. Vad är troligen orsaken
-till de?
-
-### Ben-Hur 3.44
-
-Du har precis satt upp ett storagenät för högupplösta videofiler. Allt
-verkar fungera men du lyckas inte få upp hastigheten. Vad kan du göra
-för att få upp hastigheten i ditt L2 nät?
-
-### Great wall of China
-
-En lokal admin (DSA) köper in all infrastruktur centralt men får för sig
-att sätta upp en egen brandvägg (cisco ASA) mellan era nät. Det stora
-flertalet klienter kommer inte ut på internet, medans vissa gör det. Vad
-har troligvis glömts i konfigurationen i ASA:n?
-
-### Rete Lumbricus
-
-En familj har satt upp en egen router med ip-utdelning. I
-konfigurationsmenyn kunde man skriva in ip/ett nummer. Familjen
-uppfattade numret som antalet klienter och valde således 192.168.0.0/30.
-Hur kommer detta att fungera för familjen?
-
-### 2x(Som en blomma vissnad)
-
-Vilken RFC beskriver interna nät som inte får routas ut på internet?
-
-### Shibari
-
-Vad finns det för möjlighet att knyta ip med MAC-adress i en renodlad L2
-switch? Har metoden begränsningar?
-
-### Väldigt trasiga prylar
-
-Helt plötsligt försvinner alla vlan från alla switchar samtidigt. Vad
-har troligtvis hänt?
-
-### Huston, we have a problem!
-
-Du har satt lösenord på en switch för att kunna logga in via SSH och
-AUX. Du stoppar in en konsollkabel och blir inte promptad för lösenord,
-varför?
-
-Misc
-----
-
-### !False
-
-Beskriv vad nedan kod gör. Stämmer resonemanget?
-
-    if ! (!0) != !0
-
-Q
-=
-
-Skriv en valfri fråga med svar, motivering och rubrik. Om den är bra
-kommer den vara med i nästa utgåva av detta prov.
